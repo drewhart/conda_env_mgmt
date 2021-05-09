@@ -6,15 +6,64 @@ dependencies:
   - python=3.7
   - pip
   - gdal
-  - earthengine-api
-  - imageio
-  - matplotlib
   - basemap
+  - biopython
+  - bitarray
+  - bokeh
+  - cython
+  - descartes
+  - earthengine-api
+  - fiona
+  - folium
+  - geemap
+  - geographiclib
+  - geojson
+  - geopandas
+  - geopy
+  - geos
+  - imageio
+  - ipykernel
+  - ipython
+  - ipywidgets
+  - jupyter
+  - jupyter_client
+  - keras
+  - mahotas
+  - mapclassify
+  - matplotlib
+  - matplotlib-inline
+  - msprime
+  - netCDF4
   - numpy
+  - oauth2client
+  - pandas
+  - psutil
+  - pykrige
+  - pyproj
+  - pysal
+  - python-dateutil
+  - pyvcf
+  - radian
+  - rasterio
+  - rasterstats
+  - rio-cogeo
+  - rio-color
+  - rio-tiler
+  - rioxarray
   - scikit-image
   - scikit-learn
   - scipy
+  - seaborn
+  - shapely
+  - sphinx
+  - sphinx_rtd_theme
+  - statsmodels
   - sympy
+  - tensorflow
+  - tskit
+  - twine
+  - urllib3
+  - xarray
   - r-base
   - r-CCP
   - r-cowplot
@@ -50,53 +99,8 @@ dependencies:
   - r-vegan
   - r-wesanderson
   - pip:
-    - biopython
-    - bitarray
-    - bokeh
-    - cartopy
-    - cython
-    - descartes
-    - fiona
-    - folium
-    - geemap
-    - geographiclib
-    - geojson
     - geopandas
-    - geopy
-    - geos
-    - ipykernel
-    - ipython
-    - ipywidgets
-    - jupyter
-    - jupyter_client
-    - keras
-    - mahotas
-    - mapclassify
-    - msprime
-    - netCDF4
     - nlmpy
-    - oauth2client
-    - pandas
-    - psutil
-    - pykrige
-    - pyproj
-    - pysal
-    - pyvcf
-    - radian
-    - rio-cogeo
-    - rio-color
-    - rio-hist
-    - rio-tiler
     - rasterio
-    - rasterstats
-    - shapely
-    - seaborn
-    - sphinx
-    - sphinx_rtd_theme
-    - statsmodels
+    - rio-hist
     - teapot
-    - tensorflow
-    - tskit
-    - twine
-    - urllib3
-    - xarray
