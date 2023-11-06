@@ -3,10 +3,11 @@ channels:
   - pyviz 
   - conda-forge
 dependencies:
-  - python=3.7
+  - python=3.9
   - pip
   - gdal
   - qgis
+  - azure-storage-blob
   - basemap
   - biopython
   - bitarray
@@ -14,8 +15,12 @@ dependencies:
   - cython
   - descartes
   - earthengine-api
+  - eofs
   - fiona
   - folium
+  - fsspec
+  - fuzzywuzzy
+  - gcsfs
   - geemap
   - geographiclib
   - geojson
@@ -23,12 +28,16 @@ dependencies:
   - geopy
   - geos
   - imageio
+  - intake
+  - intake-stac
+  - intake-xarray
   - ipykernel
   - ipython
   - ipywidgets
   - jupyter
   - jupyter_client
   - keras
+  - latlon_utils
   - mahotas
   - mapclassify
   - matplotlib
@@ -39,19 +48,24 @@ dependencies:
   - oauth2client
   - palettable
   - pandas
+  - planetary_computer
   - psutil
   - pykrige
   - pyproj
   - pysal
   - python-dateutil
-  - pyvcf
+  - python-Levenshtein
+  - pyVCF
   - radian
   - rasterio
   - rasterstats
   - rio-cogeo
   - rio-color
   - rio-tiler
+  - rio-viz
   - rioxarray
+  - s3fs
+  - scikit-bio
   - scikit-image
   - scikit-learn
   - scipy
@@ -59,28 +73,34 @@ dependencies:
   - shapely
   - sphinx
   - sphinx_rtd_theme
+  - stackstac
   - statsmodels
   - sympy
   - tensorflow
   - tskit
   - twine
+  - unidecode
   - urllib3
+  - wget
   - xarray
+  - xarray-spatial
+  - zarr
   - r-base>=4.0
-  - r-adehabitat
   - r-caTools
   - r-CCP
   - r-cowplot
   - r-devtools
   - r-dismo
   - r-dplyr
-  - r-genepop
+  - r-forecast
   - r-ggplot2
   - r-ggthemes
   - r-gstat
+  - r-hierfstat
   - r-irkernel
   - r-jsonlite
   - r-knitr
+  - r-latex2exp
   - r-lme4
   - r-lmerTest
   - r-mapedit
@@ -105,7 +125,6 @@ dependencies:
   - r-shiny
   - r-sp
   - r-spatialEco
-  - r-SpatialML
   - r-tidyr
   - r-tidyverse
   - r-tmap
@@ -113,8 +132,14 @@ dependencies:
   - r-vegan
   - r-wesanderson
   - pip:
+    - ebird-api
+    - geonomics
     - geopandas
+    - intake_geopandas
     - nlmpy
+    - PyPDF2
+    - python-Levenshtein
     - rasterio
     - rio-hist
     - teapot
+    - xeno-canto
